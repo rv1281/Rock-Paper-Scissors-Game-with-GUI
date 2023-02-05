@@ -4,10 +4,6 @@ import random
 from tkinter import messagebox
 import sys
 
-#def game_result():
- #   result = "You won" if user_wins > computer_wins else "You lost."
- #   messagebox.showinfo("Result by {}", result,user_wins)
-
 root = Tk()
 
 user_wins = 0

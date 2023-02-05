@@ -80,7 +80,6 @@ def press(user_choice):
         result.insert(END, "You both picked the same. It's a tie!")
         result.tag_configure("center", justify='center')
         result.tag_add("center", 1.0, "end")
-        user_wins += 1
     else:
         computer_wins += 1
         result.insert(END, "You clicked {}. Computer picked {}. You lose!".format(user_choice, computer_pick))
